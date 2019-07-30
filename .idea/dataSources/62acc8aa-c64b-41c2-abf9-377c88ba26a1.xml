@@ -865,110 +865,115 @@
     <table id="219" parent="14" name="customer"/>
     <table id="220" parent="14" name="product"/>
     <table id="221" parent="14" name="sales_order"/>
-    <column id="222" parent="219" name="customer_number">
+    <routine id="222" parent="14" name="usp_generate_order_data">
+      <SourceTextLength>935</SourceTextLength>
+      <Definer>root@%</Definer>
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <column id="223" parent="219" name="customer_number">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="223" parent="219" name="customer_name">
+    <column id="224" parent="219" name="customer_name">
       <Position>2</Position>
       <DataType>varchar(128)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="224" parent="219" name="customer_street_address">
+    <column id="225" parent="219" name="customer_street_address">
       <Position>3</Position>
       <DataType>varchar(256)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="225" parent="219" name="customer_zip_code">
+    <column id="226" parent="219" name="customer_zip_code">
       <Position>4</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="226" parent="219" name="customer_city">
+    <column id="227" parent="219" name="customer_city">
       <Position>5</Position>
       <DataType>varchar(32)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="227" parent="219" name="customer_state">
+    <column id="228" parent="219" name="customer_state">
       <Position>6</Position>
       <DataType>varchar(32)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="228" parent="219" name="PRIMARY">
+    <key id="229" parent="219" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>customer_number</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="229" parent="220" name="product_code">
+    <column id="230" parent="220" name="product_code">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="230" parent="220" name="product_name">
+    <column id="231" parent="220" name="product_name">
       <Position>2</Position>
       <DataType>varchar(128)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="231" parent="220" name="product_category">
+    <column id="232" parent="220" name="product_category">
       <Position>3</Position>
       <DataType>varchar(256)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="232" parent="220" name="PRIMARY">
+    <key id="233" parent="220" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>product_code</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="233" parent="221" name="order_number">
+    <column id="234" parent="221" name="order_number">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="234" parent="221" name="customer_number">
+    <column id="235" parent="221" name="customer_number">
       <Position>2</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="235" parent="221" name="product_code">
+    <column id="236" parent="221" name="product_code">
       <Position>3</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="236" parent="221" name="order_date">
+    <column id="237" parent="221" name="order_date">
       <Position>4</Position>
       <DataType>datetime|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="237" parent="221" name="entry_date">
+    <column id="238" parent="221" name="entry_date">
       <Position>5</Position>
       <DataType>datetime|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="238" parent="221" name="order_amount">
+    <column id="239" parent="221" name="order_amount">
       <Position>6</Position>
       <DataType>decimal(18,2 digit)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="239" parent="221" name="PRIMARY">
+    <key id="240" parent="221" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>order_number</ColNames>
       <Primary>1</Primary>
