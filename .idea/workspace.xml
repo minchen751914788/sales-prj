@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce465bfd-8c7d-448f-b6c1-1881fef73ca5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/sql/02-dw/001-ods/rdbms→ods-product.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/sql/02-dw/001-ods/rdbms→ods-sales-order.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/62acc8aa-c64b-41c2-abf9-377c88ba26a1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/62acc8aa-c64b-41c2-abf9-377c88ba26a1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sales-prj.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/sql/02-dw/001-ods/rdbms→ods.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/sql/02-dw/001-ods/rdbms→ods-customer.sh" afterDir="false" />
-    </list>
+    <list default="true" id="ce465bfd-8c7d-448f-b6c1-1881fef73ca5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,6 +50,7 @@
     <session id="1276816496">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -78,13 +69,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="sql" value="265" />
+          <entry key="sql" value="266" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Scratch" value="265" />
+          <entry key="Scratch" value="266" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -113,8 +104,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ef8562ce-936e-44ec-a507-25b70d8e45fd/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="190">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -123,6 +114,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -196,6 +190,53 @@
               <item name="sales-prj" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sales-prj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sales-prj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sales-prj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sales-prj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sales-prj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sales-prj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+              <item name="01-rdbms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sales-prj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sales-prj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+              <item name="02-dw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sales-prj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sales-prj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+              <item name="02-dw" type="462c0819:PsiDirectoryNode" />
+              <item name="001-ods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sales-prj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sales-prj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+              <item name="02-dw" type="462c0819:PsiDirectoryNode" />
+              <item name="002-dw" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -207,11 +248,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564661998261" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -244,7 +286,7 @@
       <workItem from="1564473504789" duration="5767000" />
       <workItem from="1564499147151" duration="630000" />
       <workItem from="1564538654507" duration="4683000" />
-      <workItem from="1564638812235" duration="3751000" />
+      <workItem from="1564638812235" duration="5706000" />
     </task>
     <task id="LOCAL-00001" summary="项目经理准备好RDBMS层的基础表，并准备好测试的数据...">
       <created>1564470075714</created>
@@ -260,11 +302,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564539199085</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Marry进行数仓的开发，ods层，dw层建模，以及etl操作...">
+      <created>1564648194875</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564648194875</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17938000" />
+    <option name="totallyTimeSpent" value="19893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -407,8 +456,8 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ef8562ce-936e-44ec-a507-25b70d8e45fd/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
