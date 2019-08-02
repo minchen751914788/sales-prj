@@ -82,3 +82,33 @@ INSERT INTO product(product_name,product_category) VALUES
 ('Hard Disk','Storage'),
 ('Floppy Drive','Storage'),
 ('lcd panel','monitor');
+
+
+#创建dim_date表
+USE sales_source;
+SHOW TABLES;
+
+DELIMITER //
+CREATE PROCEDURE USP_Load_Dim_Date(dt_start DATE,dt_end DATE)
+   BEGIN
+
+      WHILE dt_start<=dt_end DO
+         INSERT INTO dim_date (`date`,`month`,`month_name`,`quarter`,`year`)
+         VALUES (dt_start,MONTH(dt_start),MONTHNAME(dt_start),QUARTER(dt_start),YEAR(dt_start));
+         SET dt_start =ADDDATE(dt_start,1);
+      END WHILE;
+
+      COMMIT;
+   END //
+
+
+CREATE TABLE dim_date(
+   `date`                 DATE,
+   `MONTH`                TINYINT,
+   month_name            VARCHAR(16),
+   `QUARTER`              TINYINT,
+   `YEAR`                 INT
+);
+SHOW TABLES;
+
+CALL USP_Load_Dim_Date('2010-1-1','2050-1-1');
