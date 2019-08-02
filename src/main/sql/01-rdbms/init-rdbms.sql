@@ -110,5 +110,20 @@ CREATE TABLE dim_date(
    `YEAR`                 INT
 );
 SHOW TABLES;
-
 CALL USP_Load_Dim_Date('2010-1-1','2050-1-1');
+
+#在hive的rds也创建个dim_date表
+#通过sqoop导入,如果报错,可能是因为split未指定,修改后的sh如下
+
+sqoop import \
+--connect jdbc:mysql://NODE03:3306/sales_source \
+--username root \
+--password 88888888 \
+--table dim_date \
+--hive-import \
+--hive-table sales_rds.dim_date \
+--split-by date \
+--hive-overwrite \
+--target-dir /user/hive/warehouse/sales_rds.db/dim_date \
+--delete-target-dir
+

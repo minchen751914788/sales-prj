@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce465bfd-8c7d-448f-b6c1-1881fef73ca5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/sql/003-test/dw-dm.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/sql/02-dw/001-ods/rdbms→ods-dim_date.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/sql/02-dw/001-ods1/ods-init.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/sql/02-dw/001-ods1/rdbms��ods-customer.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/sql/02-dw/001-ods1/rdbms��ods-product.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/sql/02-dw/001-ods1/rdbms��ods-sales-order.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/sql/02-dw/002-dw1/date-pro.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/sql/02-dw/002-dw1/dw-init.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/sql/02-dw/002-dw1/ods��dm.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/sql/02-dw/002-dw1/ods��dm2.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/sql/02-dw/002-dw1/schedule_daily_etl.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/sql/01-rdbms/init-rdbms.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/sql/01-rdbms/init-rdbms.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/sql/02-dw/002-dw/date-pro.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/sql/02-dw/002-dw/date-pro.sql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -75,30 +63,30 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="sh" value="13" />
-          <entry key="sql" value="17" />
+          <entry key="sql" value="19" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="13" />
-          <entry key="SQL" value="16" />
+          <entry key="SQL" value="18" />
           <entry key="Scratch" value="1" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="sh" value="28" />
-          <entry key="sql" value="663" />
+          <entry key="sh" value="34" />
+          <entry key="sql" value="749" />
           <entry key="txt" value="43" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="71" />
-          <entry key="SQL" value="372" />
+          <entry key="PLAIN_TEXT" value="77" />
+          <entry key="SQL" value="458" />
           <entry key="Scratch" value="291" />
           <entry key="XML" value="1" />
         </counts>
@@ -125,35 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/sql/02-dw/002-dw/date-pro.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/sql/01-rdbms/init-rdbms.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="86" column="12" lean-forward="true" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/sql/01-rdbms/init-sales-data.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/sql/02-dw/001-ods/ods-init.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="38">
+              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -167,11 +128,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/sql/02-dw/001-ods/rdbms→ods-dim_date.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="171">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/sql/02-dw/001-ods/ods-init.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/sql/01-rdbms/init-rdbms.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
             </state>
           </provider>
         </entry>
@@ -234,8 +213,8 @@
         <option value="$PROJECT_DIR$/src/main/sql/02-dw/002-dw1/schedule_daily_etl.sql" />
         <option value="$PROJECT_DIR$/src/main/sql/02-dw/001-ods1/rdbms��ods-product.sh" />
         <option value="$PROJECT_DIR$/src/main/sql/02-dw/002-dw/date-pro.sql" />
-        <option value="$PROJECT_DIR$/src/main/sql/01-rdbms/init-rdbms.sql" />
         <option value="$PROJECT_DIR$/src/main/sql/02-dw/001-ods/rdbms→ods-dim_date.sh" />
+        <option value="$PROJECT_DIR$/src/main/sql/01-rdbms/init-rdbms.sql" />
       </list>
     </option>
   </component>
@@ -373,7 +352,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564732537187" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564735654754" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -416,7 +395,7 @@
       <workItem from="1564638812235" duration="5706000" />
       <workItem from="1564661892040" duration="3177000" />
       <workItem from="1564710550473" duration="1446000" />
-      <workItem from="1564713115557" duration="11759000" />
+      <workItem from="1564713115557" duration="13980000" />
     </task>
     <task id="LOCAL-00001" summary="项目经理准备好RDBMS层的基础表，并准备好测试的数据...">
       <created>1564470075714</created>
@@ -467,17 +446,24 @@
       <option name="project" value="LOCAL" />
       <updated>1564663660373</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="创建数据集,表,插入数据,创建存储过程将数据导入sales_order">
+      <created>1564732555783</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1564732555783</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36275000" />
+    <option name="totallyTimeSpent" value="38496000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="210" y="12" width="926" height="776" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3675115" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3675115" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -494,7 +480,7 @@
       <window_info anchor="bottom" id="Database Console" order="7" visible="true" weight="0.2964539" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" visible="true" weight="0.3281493" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" side_tool="true" visible="true" weight="0.3281493" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.16777778" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -651,34 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/sql/01-rdbms/init-sales-data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/sql/02-dw/001-ods/ods-init.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/sql/02-dw/002-dw/date-pro.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/sql/01-rdbms/init-rdbms.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="86" column="12" lean-forward="true" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/sql/02-dw/001-ods/rdbms→ods-product.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -700,10 +658,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/sql/01-rdbms/init-sales-data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/sql/02-dw/002-dw/date-pro.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/sql/02-dw/001-ods/rdbms→ods-dim_date.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="171">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/sql/02-dw/001-ods/ods-init.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/sql/01-rdbms/init-rdbms.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
         </state>
       </provider>
     </entry>
