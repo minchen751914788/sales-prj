@@ -17,8 +17,9 @@
     </data-source>
     <data-source source="LOCAL" name="hive-conn" uuid="df2e3d40-2268-4a64-9ca6-e088619c3c16">
       <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
       <jdbc-driver>org.apache.hive.jdbc.HiveDriver</jdbc-driver>
-      <jdbc-url>jdbc:hive2://node01:10000</jdbc-url>
+      <jdbc-url>jdbc:hive2://192.168.170.43:10000</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="sales_source@192.168.170.45" uuid="ef8562ce-936e-44ec-a507-25b70d8e45fd">
       <driver-ref>mysql</driver-ref>
@@ -33,6 +34,11 @@
         <property name="characterSetResults" value="utf8" />
         <property name="yearIsDateType" value="false" />
       </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="org.apache.hive.jdbc.HiveData Source -" uuid="fde09615-9d06-4454-a6ab-666aafb490e7">
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>org.apache.hive.jdbc.HiveDriver</jdbc-driver>
     </data-source>
   </component>
 </project>

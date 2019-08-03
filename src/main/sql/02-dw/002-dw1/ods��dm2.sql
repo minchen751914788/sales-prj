@@ -53,3 +53,6 @@ JOIN sales_dw.dim_customer c ON a.customer_number = c.customer_number
 JOIN sales_dw.dim_product d ON a.product_code = d.product_code
 JOIN sales_dw.dim_date e ON (a.order_date) = e.`date`;
 
+
+
+use sales_dw;
