@@ -218,4 +218,4 @@ AND a.order_date < d.expiry_date
 AND to_date(a.order_date) = e.`date`
 AND a.entry_date >= f.current_load
 AND a.entry_date < f.last_load
-AND DATA_FORMAT(a.order_date,'yyyy-MM-dd')=${hivevar:pre_date};
+AND DATA_FORMAT(a.order_date,'yyyy -MM-dd')=${hivevar:pre_date};

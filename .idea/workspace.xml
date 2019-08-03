@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce465bfd-8c7d-448f-b6c1-1881fef73ca5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/sql/02-dw/003-dm/dw→dm.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/df2e3d40-2268-4a64-9ca6-e088619c3c16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/df2e3d40-2268-4a64-9ca6-e088619c3c16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/sql/02-dw/003-dm/mysql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/sql/02-dw/002-dw1/ods��dm2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/sql/02-dw/002-dw1/ods��dm2.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sql/02-dw/002-dw1/schedule_daily_etl.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/sql/02-dw/002-dw1/schedule_daily_etl.sql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,14 +66,14 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="sh" value="16" />
-          <entry key="sql" value="44" />
+          <entry key="sql" value="45" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="16" />
-          <entry key="SQL" value="43" />
+          <entry key="SQL" value="44" />
           <entry key="Scratch" value="1" />
           <entry key="XML" value="1" />
         </counts>
@@ -82,15 +81,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="sh" value="34" />
-          <entry key="sql" value="803" />
-          <entry key="txt" value="135" />
+          <entry key="sql" value="810" />
+          <entry key="txt" value="181" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="169" />
-          <entry key="SQL" value="512" />
+          <entry key="PLAIN_TEXT" value="215" />
+          <entry key="SQL" value="519" />
           <entry key="Scratch" value="291" />
           <entry key="XML" value="1" />
         </counts>
@@ -119,8 +118,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/sql/02-dw/003-dm/dw→dm.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="988">
-              <caret line="52" column="10" selection-start-line="51" selection-end-line="69" selection-end-column="42" />
+            <state relative-caret-position="247">
+              <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -161,11 +160,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/sql/02-dw/002-dw1/schedule_daily_etl.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="216" column="32" lean-forward="true" selection-start-line="216" selection-start-column="32" selection-end-line="216" selection-end-column="32" />
+            <state relative-caret-position="38">
+              <caret line="2" column="9" selection-end-line="10" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/sql/02-dw/003-dm/mysql.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
@@ -214,7 +222,6 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ef8562ce-936e-44ec-a507-25b70d8e45fd/console.sql" />
         <option value="$PROJECT_DIR$/src/main/sql/003-test/dw-dm.sql" />
         <option value="$PROJECT_DIR$/src/main/sql/02-dw/002-dw1/dw-init.sql" />
-        <option value="$PROJECT_DIR$/src/main/sql/02-dw/002-dw1/schedule_daily_etl.sql" />
         <option value="$PROJECT_DIR$/src/main/sql/02-dw/001-ods1/rdbms��ods-product.sh" />
         <option value="$PROJECT_DIR$/src/main/sql/02-dw/002-dw/date-pro.sql" />
         <option value="$PROJECT_DIR$/src/main/sql/02-dw/001-ods/rdbms→ods-dim_date.sh" />
@@ -222,6 +229,8 @@
         <option value="$PROJECT_DIR$/src/main/sql/01-rdbms/init-rdbms.sql" />
         <option value="$PROJECT_DIR$/src/main/sql/02-dw/003-dm/dw→dm.sql" />
         <option value="$PROJECT_DIR$/src/main/sql/02-dw/002-dw1/ods��dm2.sql" />
+        <option value="$PROJECT_DIR$/src/main/sql/02-dw/002-dw1/schedule_daily_etl.sql" />
+        <option value="$PROJECT_DIR$/src/main/sql/02-dw/003-dm/mysql.sql" />
       </list>
     </option>
   </component>
@@ -368,7 +377,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564812606448" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564817829665" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -413,7 +422,7 @@
       <workItem from="1564661892040" duration="3177000" />
       <workItem from="1564710550473" duration="1446000" />
       <workItem from="1564713115557" duration="21429000" />
-      <workItem from="1564795893680" duration="6585000" />
+      <workItem from="1564795893680" duration="9673000" />
     </task>
     <task id="LOCAL-00001" summary="项目经理准备好RDBMS层的基础表，并准备好测试的数据...">
       <created>1564470075714</created>
@@ -485,11 +494,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564735779793</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="将dw层的数据导入dm层,将dm层的数据导入到dbms中">
+      <created>1564812982640</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1564812982640</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52530000" />
+    <option name="totallyTimeSpent" value="55618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -571,7 +587,8 @@
     <MESSAGE value="Marry进行数仓的开发，ods层，dw层建模，以及etl操作..." />
     <MESSAGE value="创建数据集,表,插入数据,创建存储过程将数据导入sales_order" />
     <MESSAGE value="在mysql和创建了dim_date表,创建存储过程将,数据写入mysql中的dim_date表汇总,&#10;将数据导入到hive的 sales_rds的dim_date表中" />
-    <option name="LAST_COMMIT_MESSAGE" value="在mysql和创建了dim_date表,创建存储过程将,数据写入mysql中的dim_date表汇总,&#10;将数据导入到hive的 sales_rds的dim_date表中" />
+    <MESSAGE value="将dw层的数据导入dm层,将dm层的数据导入到dbms中" />
+    <option name="LAST_COMMIT_MESSAGE" value="将dw层的数据导入dm层,将dm层的数据导入到dbms中" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -670,13 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/sql/02-dw/003-dm/dw→dm.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="52" column="10" selection-start-line="51" selection-end-line="69" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/sql/02-dw/001-ods1/ods-init.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -726,10 +736,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/sql/02-dw/003-dm/dw→dm.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/sql/02-dw/002-dw1/schedule_daily_etl.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="216" column="32" lean-forward="true" selection-start-line="216" selection-start-column="32" selection-end-line="216" selection-end-column="32" />
+        <state relative-caret-position="38">
+          <caret line="2" column="9" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/sql/02-dw/003-dm/mysql.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>

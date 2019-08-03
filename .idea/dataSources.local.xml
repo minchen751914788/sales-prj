@@ -15,7 +15,7 @@
       <database-info product="Apache Hive" version="2.3.0" jdbc-version="3.0" driver-name="Hive JDBC" driver-version="3.1.1" family="HIVE" exact-version="2.3" />
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
-      <introspection-schemas>*:sales_dw</introspection-schemas>
+      <introspection-schemas>*:*</introspection-schemas>
     </data-source>
     <data-source name="sales_source@192.168.170.45" uuid="ef8562ce-936e-44ec-a507-25b70d8e45fd">
       <database-info product="MySQL" version="5.5.60-MariaDB" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.47 ( Revision: fe1903b1ecb4a96a917f7ed3190d80c049b1de29 )" family="MARIADB" exact-version="5.5.60">
@@ -26,6 +26,11 @@
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
       <introspection-schemas>*:@</introspection-schemas>
+    </data-source>
+    <data-source name="org.apache.hive.jdbc.HiveData Source -" uuid="fde09615-9d06-4454-a6ab-666aafb490e7">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="HIVE" exact-version="0.0" />
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
     </data-source>
   </component>
 </project>
